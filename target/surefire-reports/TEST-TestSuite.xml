@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="29.324" tests="61" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Selenium\RestAssuredFramework2024\target\test-classes;C:\Selenium\RestAssuredFramework2024\target\classes;C:\Users\cprat\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\cprat\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\cprat\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\cprat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cprat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cprat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cprat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cprat\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\cprat\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cprat\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\cprat\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\cprat\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\cprat\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\cprat\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\cprat\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\cprat\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\cprat\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cprat\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cprat\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\cprat\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\cprat\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\cprat\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\cprat\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\cprat\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\cprat\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\cprat\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\cprat\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\cprat\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\cprat\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\cprat\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\cprat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\cprat\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\cprat\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\cprat\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\cprat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\cprat\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\cprat\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\cprat\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cprat\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\cprat\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\cprat\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\cprat\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\cprat\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\cprat\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\cprat\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\cprat\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\cprat\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\cprat\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\cprat\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\cprat\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\cprat\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\cprat\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\cprat\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\cprat\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\cprat\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\cprat\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\cprat\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\cprat\AppData\Local\Temp\surefire11283559339354287037\surefirebooter-20240829144740034_3.jar C:\Users\cprat\AppData\Local\Temp\surefire11283559339354287037 2024-08-29T14-47-39_882-jvmRun1 surefire-20240829144740034_1tmp surefire_0-20240829144740034_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Selenium\RestAssuredFramework2024\target\test-classes;C:\Selenium\RestAssuredFramework2024\target\classes;C:\Users\cprat\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\cprat\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\cprat\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\cprat\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cprat\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cprat\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cprat\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\cprat\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\cprat\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\cprat\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\cprat\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\cprat\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\cprat\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\cprat\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\cprat\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\cprat\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\cprat\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\cprat\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cprat\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\cprat\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\cprat\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\cprat\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\cprat\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\cprat\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\cprat\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\cprat\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\cprat\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\cprat\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\cprat\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\cprat\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\cprat\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\cprat\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\cprat\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\cprat\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\cprat\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\cprat\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\cprat\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\cprat\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\cprat\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\cprat\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\cprat\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\cprat\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\cprat\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\cprat\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\cprat\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\cprat\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\cprat\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\cprat\.m2\repository\org\apache\poi\poi-ooxml\5.3.0\poi-ooxml-5.3.0.jar;C:\Users\cprat\.m2\repository\org\apache\poi\poi-ooxml-lite\5.3.0\poi-ooxml-lite-5.3.0.jar;C:\Users\cprat\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\cprat\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\cprat\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\cprat\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\cprat\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\cprat\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\cprat\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\cprat\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\cprat\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\cprat\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cprat"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Selenium\RestAssuredFramework2024"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\cprat\AppData\Local\Temp\surefire11283559339354287037\surefirebooter-20240829144740034_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="cprat"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cprat\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\cprat\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Selenium\RestAssuredFramework2024"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22\bin\java.exe;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Users\cprat\AppData\Local\Microsoft\WindowsApps;C:\Users\cprat\AppData\Roaming\npm;C:\Users\cprat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-22\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testPOSTUsers[1010, UserName1, FirstName1, LastName1, email1@gmail.com, Password1, 1234567890](1)" classname="api.test.DDTests" time="2.554">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testPOSTUsers[1011, UserName2, FirstName2, LastName2, email2@gmail.com, Password2, 1234567891](2)" classname="api.test.DDTests" time="0.29"/>
+  <testcase name="testPOSTUsers[1012, UserName3, FirstName3, LastName3, email3@gmail.com, Password3, 1234567892](3)" classname="api.test.DDTests" time="0.4"/>
+  <testcase name="testPOSTUsers[1013, UserName4, FirstName4, LastName4, email4@gmail.com, Password4, 1234567893](4)" classname="api.test.DDTests" time="0.297"/>
+  <testcase name="testPOSTUsers[1014, UserName5, FirstName5, LastName5, email5@gmail.com, Password5, 1234567894](5)" classname="api.test.DDTests" time="0.305"/>
+  <testcase name="testPOSTUsers[1015, UserName6, FirstName6, LastName6, email6@gmail.com, Password6, 1234567895](6)" classname="api.test.DDTests" time="0.306"/>
+  <testcase name="testPOSTUsers[1016, UserName7, FirstName7, LastName7, email7@gmail.com, Password7, 1234567896](7)" classname="api.test.DDTests" time="0.296"/>
+  <testcase name="testPOSTUsers[1017, UserName8, FirstName8, LastName8, email8@gmail.com, Password8, 1234567897](8)" classname="api.test.DDTests" time="0.418"/>
+  <testcase name="testPOSTUsers[1018, UserName9, FirstName9, LastName9, email9@gmail.com, Password9, 1234567898](9)" classname="api.test.DDTests" time="0.387"/>
+  <testcase name="testPOSTUsers[1019, UserName10, FirstName10, LastName10, email10@gmail.com, Password10, 1234567899](10)" classname="api.test.DDTests" time="0.278"/>
+  <testcase name="testPOSTUsers[1020, UserName11, FirstName11, LastName11, email11@gmail.com, Password11, 1234567900](11)" classname="api.test.DDTests" time="0.285"/>
+  <testcase name="testPOSTUsers[1021, UserName12, FirstName12, LastName12, email12@gmail.com, Password12, 1234567901](12)" classname="api.test.DDTests" time="0.305"/>
+  <testcase name="testPOSTUsers[1022, UserName13, FirstName13, LastName13, email13@gmail.com, Password13, 1234567902](13)" classname="api.test.DDTests" time="0.756"/>
+  <testcase name="testPOSTUsers[1023, UserName14, FirstName14, LastName14, email14@gmail.com, Password14, 1234567903](14)" classname="api.test.DDTests" time="0.839"/>
+  <testcase name="testPOSTUsers[1024, UserName15, FirstName15, LastName15, email15@gmail.com, Password15, 1234567904](15)" classname="api.test.DDTests" time="0.628"/>
+  <testcase name="testPOSTUsers[1025, UserName16, FirstName16, LastName16, email16@gmail.com, Password16, 1234567905](16)" classname="api.test.DDTests" time="0.464"/>
+  <testcase name="testPOSTUsers[1026, UserName17, FirstName17, LastName17, email17@gmail.com, Password17, 1234567906](17)" classname="api.test.DDTests" time="0.291"/>
+  <testcase name="testPOSTUsers[1027, UserName18, FirstName18, LastName18, email18@gmail.com, Password18, 1234567907](18)" classname="api.test.DDTests" time="0.422"/>
+  <testcase name="testPOSTUsers[1028, UserName19, FirstName19, LastName19, email19@gmail.com, Password19, 1234567908](19)" classname="api.test.DDTests" time="0.428"/>
+  <testcase name="testGetUser[UserName1](1)" classname="api.test.DDTests" time="0.442"/>
+  <testcase name="testGetUser[UserName2](2)" classname="api.test.DDTests" time="0.289"/>
+  <testcase name="testGetUser[UserName3](3)" classname="api.test.DDTests" time="0.36"/>
+  <testcase name="testGetUser[UserName4](4)" classname="api.test.DDTests" time="0.381"/>
+  <testcase name="testGetUser[UserName5](5)" classname="api.test.DDTests" time="0.384"/>
+  <testcase name="testGetUser[UserName6](6)" classname="api.test.DDTests" time="0.363"/>
+  <testcase name="testGetUser[UserName7](7)" classname="api.test.DDTests" time="0.264"/>
+  <testcase name="testGetUser[UserName8](8)" classname="api.test.DDTests" time="0.381"/>
+  <testcase name="testGetUser[UserName9](9)" classname="api.test.DDTests" time="0.381"/>
+  <testcase name="testGetUser[UserName10](10)" classname="api.test.DDTests" time="0.268"/>
+  <testcase name="testGetUser[UserName11](11)" classname="api.test.DDTests" time="0.41"/>
+  <testcase name="testGetUser[UserName12](12)" classname="api.test.DDTests" time="0.358"/>
+  <testcase name="testGetUser[UserName13](13)" classname="api.test.DDTests" time="0.394"/>
+  <testcase name="testGetUser[UserName14](14)" classname="api.test.DDTests" time="0.267"/>
+  <testcase name="testGetUser[UserName15](15)" classname="api.test.DDTests" time="0.384"/>
+  <testcase name="testGetUser[UserName16](16)" classname="api.test.DDTests" time="0.281"/>
+  <testcase name="testGetUser[UserName17](17)" classname="api.test.DDTests" time="0.381"/>
+  <testcase name="testGetUser[UserName18](18)" classname="api.test.DDTests" time="0.346"/>
+  <testcase name="testGetUser[UserName19](19)" classname="api.test.DDTests" time="0.388"/>
+  <testcase name="testDelUser[UserName1](1)" classname="api.test.DDTests" time="0.372"/>
+  <testcase name="testDelUser[UserName2](2)" classname="api.test.DDTests" time="0.383"/>
+  <testcase name="testDelUser[UserName3](3)" classname="api.test.DDTests" time="0.276"/>
+  <testcase name="testDelUser[UserName4](4)" classname="api.test.DDTests" time="0.377"/>
+  <testcase name="testDelUser[UserName5](5)" classname="api.test.DDTests" time="0.391"/>
+  <testcase name="testDelUser[UserName6](6)" classname="api.test.DDTests" time="0.278"/>
+  <testcase name="testDelUser[UserName7](7)" classname="api.test.DDTests" time="0.264"/>
+  <testcase name="testDelUser[UserName8](8)" classname="api.test.DDTests" time="0.38"/>
+  <testcase name="testDelUser[UserName9](9)" classname="api.test.DDTests" time="0.383"/>
+  <testcase name="testDelUser[UserName10](10)" classname="api.test.DDTests" time="0.386"/>
+  <testcase name="testDelUser[UserName11](11)" classname="api.test.DDTests" time="0.274"/>
+  <testcase name="testDelUser[UserName12](12)" classname="api.test.DDTests" time="0.384"/>
+  <testcase name="testDelUser[UserName13](13)" classname="api.test.DDTests" time="0.281"/>
+  <testcase name="testDelUser[UserName14](14)" classname="api.test.DDTests" time="0.324"/>
+  <testcase name="testDelUser[UserName15](15)" classname="api.test.DDTests" time="0.278"/>
+  <testcase name="testDelUser[UserName16](16)" classname="api.test.DDTests" time="0.388"/>
+  <testcase name="testDelUser[UserName17](17)" classname="api.test.DDTests" time="0.276"/>
+  <testcase name="testDelUser[UserName18](18)" classname="api.test.DDTests" time="0.399"/>
+  <testcase name="testDelUser[UserName19](19)" classname="api.test.DDTests" time="0.252"/>
+  <testcase name="testPostUser" classname="api.test.userTests" time="0.395"/>
+  <testcase name="testGetUser" classname="api.test.userTests" time="0.285"/>
+  <testcase name="testPutUser" classname="api.test.userTests" time="1.368"/>
+  <testcase name="testDelUser" classname="api.test.userTests" time="0.267"/>
+</testsuite>
